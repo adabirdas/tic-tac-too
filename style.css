@@ -1,0 +1,159 @@
+body{
+    background-image: url(visual-effect-abstract-dark-colorful.jpg);
+    background-size: cover;
+    background-repeat: inherit;
+    
+
+    
+    
+}
+#bgmusic{
+    
+    height: 10px;
+    width: 150px;
+    
+    
+    
+}
+h1{
+    
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    
+}
+.game{
+
+    height:280px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 535px;
+    margin-top: 20px;
+    border:15px double aqua;
+    box-shadow: 0 0 5rem rgba(0, 255, 157, 0.664);
+    
+}
+.box{
+    height: 85px;
+    width:80px;
+    margin: 2px;
+    border:5px solid rgb(160, 243, 92);
+    border-radius: 20%;
+    background-color: transparent;
+    color: rgb(255, 238, 0);
+    font-size: 50px;
+    box-shadow: 0 0 5rem rgba(208, 255, 0, 0.233);
+}
+.box:hover{
+    border-color: rgb(238, 165, 31);
+}
+.playmode{
+    position: relative;
+    left: 530px;
+    top: 40px;
+    
+    
+}
+.modes{
+    font-size: larger;
+    color: azure;
+    border: 3px double aqua ;
+    background-color: transparent;
+    margin: 10px;
+    
+
+}
+.modes:hover{
+    
+    font-size: 20px;
+    color: rgb(102, 255, 0);
+    border: 5px double rgb(187, 255, 0) ;
+}
+.score{
+    position: absolute;
+    right: 545px;
+    bottom: 460px;
+    color: rgb(255, 255, 255);
+    text-shadow: 10PX 10PX 20PX  white;
+    
+    
+    
+    font-size: 30px;
+    font-weight: bolder;
+}
+.scoreplate{
+    width: 200px;
+    height: 50px;
+    
+    display: flex;
+    
+}
+.playerscore{
+    width:50px;
+    height: 30px;
+    
+    position: relative;
+    left: 50px;
+    color: aliceblue;
+    
+}
+.scoreplate{
+    position: relative;
+    right:40px;
+    font-weight: lighter;
+}
+.score2{
+    position: absolute;
+    left: 1050px;
+    bottom: 300px;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.restart{
+    position: absolute;
+    left:610px;
+    color: aliceblue;
+    height: 30px;
+    width: 150px;
+    top: 40px;
+    font-weight:bolder ;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    top: 520px;
+    
+}
+.restart:hover{
+    color: rgb(229, 255, 0);
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.first{
+    position: absolute;
+    left: 100px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow:0 0 2rem rgba(0, 255, 255, 0.411) ;
+    background-color: transparent;
+    top: 130px;
+}
+.second{
+    position: absolute;
+    right: 100px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow:0 0 2rem rgba(0, 255, 255, 0.411) ;
+    background-color: transparent;
+    top: 130px;
+}
